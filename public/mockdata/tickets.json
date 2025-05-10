@@ -1,0 +1,50 @@
+[
+  {
+    "id": 10,
+    "user": "alice@brrmedia.co.uk",
+    "issue": "Wi-Fi Connectivity",
+    "description": "My MacBook keeps dropping Wi-Fi.",
+    "status": "Open",
+    "created": "2024-03-28T09:00:00Z"
+  },
+  {
+    "id": 12,
+    "user": "john@brrmedia.co.uk",
+    "issue": "Software Installation",
+    "description": "Need Adobe Illustrator installed.",
+    "status": "Resolved",
+    "created": "2024-03-20T14:35:00Z"
+  },
+  {
+    "id": 13,
+    "user": "sophie@brrmedia.co.uk",
+    "issue": "Printer Issue",
+    "description": "Printer not responding to any commands.",
+    "status": "In Progress",
+    "created": "2024-04-01T10:10:00Z"
+  },
+  {
+    "id": 14,
+    "user": "daniel@brrmedia.co.uk",
+    "issue": "Slow Laptop",
+    "description": "Laptop performance is very sluggish.",
+    "status": "Open",
+    "created": "2024-04-04T11:45:00Z"
+  },
+  {
+    "id": 15,
+    "user": "maya@brrmedia.co.uk",
+    "issue": "Email Sync Problem",
+    "description": "Not receiving new emails in Outlook.",
+    "status": "Open",
+    "created": "2024-04-02T09:20:00Z"
+  },
+  {
+    "id": 16,
+    "user": "lucy@brrmedia.co.uk",
+    "issue": "VPN Access",
+    "description": "Unable to connect to the company VPN.",
+    "status": "Open",
+    "created": "2024-04-05T08:30:00Z"
+  }
+]

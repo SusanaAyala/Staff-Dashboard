@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Complete quarterly report",
+    "description": "Finalize the Q3 financial report for the board",
+    "created_at": "2023-09-15",
+    "due_date": "2023-09-30",
+    "status": "In Progress"
+  },
+  {
+    "id": 2,
+    "title": "Update website content",
+    "description": "Refresh the company website with new product info",
+    "created_at": "2023-09-10",
+    "due_date": "2023-09-25",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "title": "Prepare client presentation",
+    "description": "Create slides for the upcoming client meeting",
+    "created_at": "2023-09-05",
+    "due_date": "2023-09-20",
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "title": "Review marketing strategy",
+    "description": "Analyze current marketing performance and strategy",
+    "created_at": "2023-09-12",
+    "due_date": "2023-10-05",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "title": "Staff training session",
+    "description": "Organize training for new software implementation",
+    "created_at": "2023-09-08",
+    "due_date": "2023-09-22",
+    "status": "In Progress"
+  }
+]

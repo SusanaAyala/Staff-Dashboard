@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "role": "Video Producer",
+    "email": "alice@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-04-01T10:12:00Z",
+    "driveUsage": "3.5 GB",
+    "device": "MacBook Pro"
+  },
+  {
+    "id": 2,
+    "name": "John Taylor",
+    "role": "Graphic Designer",
+    "email": "john@brrmedia.co.uk",
+    "status": "inactive",
+    "lastLogin": "2024-02-15T08:00:00Z",
+    "driveUsage": "1.2 GB",
+    "device": "iMac"
+  },
+  {
+    "id": 3,
+    "name": "Sophie Lee",
+    "role": "Project Manager",
+    "email": "sophie@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-03-30T13:47:00Z",
+    "driveUsage": "4.1 GB",
+    "device": "MacBook Air"
+  },
+  {
+    "id": 4,
+    "name": "Daniel Green",
+    "role": "Editor",
+    "email": "daniel@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-04-05T16:20:00Z",
+    "driveUsage": "2.7 GB",
+    "device": "Windows Laptop"
+  },
+  {
+    "id": 5,
+    "name": "Maya Patel",
+    "role": "Marketing Specialist",
+    "email": "maya@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-04-03T09:00:00Z",
+    "driveUsage": "5.0 GB",
+    "device": "MacBook Pro"
+  }
+]
