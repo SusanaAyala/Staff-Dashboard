@@ -19,7 +19,7 @@ export default function Sidebar() {
   return (
     <>
       {/* Mobile top bar */}
-      <div className="md:hidden fixed top-0 left-0 right-0 z-40 bg-black text-white flex items-center justify-between px-4 py-3 shadow">
+      <div className="lg:hidden fixed top-0 left-0 right-0 z-40 bg-black text-white flex items-center justify-between px-4 py-3 shadow">
         <Menu size={24} onClick={() => setIsOpen(true)} className="cursor-pointer" />
         <div></div>
       </div>
@@ -28,17 +28,15 @@ export default function Sidebar() {
       <div className="flex">
         {/* Mobile Sidebar */}
         <div
-          className={`fixed top-0 left-0 z-50 h-full w-64 bg-black text-white transform transition-transform duration-300 md:hidden ${
+          className={`fixed top-0 left-0 z-50 h-full w-64 bg-black text-white transform transition-transform duration-300 lg:hidden ${
             isOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
         >
-          {/* Mobile Close Header */}
           <div className="flex justify-between items-center p-4 border-b border-gray-700">
             <img src={logo} alt="Logo" className="h-8" />
             <X size={24} onClick={() => setIsOpen(false)} className="cursor-pointer" />
           </div>
 
-          {/* Nav Items */}
           <nav className="flex flex-col gap-6 text-[16px] px-6 pt-6">
             <NavLink to="/dashboard" className="flex items-center gap-3 hover:text-yellow-300">
               <LayoutDashboard size={20} />
@@ -62,7 +60,6 @@ export default function Sidebar() {
             </NavLink>
           </nav>
 
-          {/* Profile */}
           <div className="absolute bottom-6 left-6 flex items-center space-x-3">
             <div className="bg-yellow-300 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center">
               JS
@@ -79,7 +76,7 @@ export default function Sidebar() {
         </div>
 
         {/* Desktop Sidebar */}
-        <div className="hidden md:flex md:flex-col w-64 h-screen bg-black text-white">
+        <div className="hidden lg:flex lg:flex-col w-64 h-screen bg-black text-white">
           <div className="flex items-center space-x-2 px-6 pt-6 pb-2">
             <img src={logo} alt="BRR Logo" className="h-10" />
           </div>
@@ -107,7 +104,6 @@ export default function Sidebar() {
             </NavLink>
           </nav>
 
-          {/* Profile */}
           <div className="mt-auto px-6 py-6 flex items-center space-x-3">
             <div className="bg-yellow-300 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center">
               MV
@@ -124,8 +120,7 @@ export default function Sidebar() {
         </div>
       </div>
 
-      {/* Spacer to push content down below mobile top bar */}
-      <div className="md:hidden h-[56px]"></div>
+      <div className="lg:hidden h-[56px]"></div>
     </>
   );
 }

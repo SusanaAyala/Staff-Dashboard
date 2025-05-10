@@ -17,6 +17,9 @@ module.exports = {
         dark: '#333333',
         customIndigo: 'rgba(87, 74, 99, 1)',
       },
+      screens: {
+        lg: '1110px',
+      },
     },
   },
   variants: {

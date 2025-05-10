@@ -5,7 +5,7 @@ import LatestUpdates from '../Dashboard/LatestUpdates';
 
 export default function Dashboard() {
   return (
-    <div className="p-20 md:p-10 space-y-6">
+    <div className="p-20 lg:p-10 space-y-6">
       <Banner />
       <InfoCards />
       <LatestUpdates/>
