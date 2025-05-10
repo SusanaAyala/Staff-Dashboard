@@ -18,7 +18,7 @@ module.exports = {
         customIndigo: 'rgba(87, 74, 99, 1)',
       },
       screens: {
-        lg: '1247px',
+        lg: '1502px',
       },
     },
   },
