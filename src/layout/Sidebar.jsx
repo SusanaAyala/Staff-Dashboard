@@ -62,7 +62,7 @@ export default function Sidebar() {
 
           <div className="absolute bottom-6 left-6 flex items-center space-x-3">
             <div className="bg-yellow-300 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center">
-              JS
+              MV
             </div>
             <div>
               <div className="font-semibold leading-tight">Mohamed Virji</div>
